@@ -1,0 +1,16 @@
+[project]
+name = "journal-backend"
+version = "0.1.0"
+description = "Journal application backend (FastAPI + async SQLAlchemy + SQLite)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "sqlalchemy>=2.0",
+    "aiosqlite>=0.20",
+    "pydantic-settings>=2.4",
+]
+
+[tool.uv]
+package = false
