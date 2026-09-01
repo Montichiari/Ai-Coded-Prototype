@@ -1,0 +1,15 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "Journal" [ref=e5] [cursor=pointer]:
+      - /url: /
+  - main [ref=e6]:
+    - generic [ref=e24]:
+      - link "← Back to entries" [ref=e25] [cursor=pointer]:
+        - /url: /
+      - time [ref=e26]: 10 November 2026
+      - heading "Today is a great day" [level=1] [ref=e27]
+      - paragraph [ref=e28]: I went for a walk
+      - generic [ref=e29]:
+        - link "Edit" [ref=e30] [cursor=pointer]:
+          - /url: /entries/4/edit
+        - button "Delete" [ref=e31] [cursor=pointer]

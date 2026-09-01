@@ -1,0 +1,23 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "Journal" [ref=e5] [cursor=pointer]:
+      - /url: /
+  - main [ref=e6]:
+    - generic [ref=e7]:
+      - heading "New entry" [level=1] [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]: Date
+          - textbox "Date" [ref=e12]: 2026-09-01
+        - generic [ref=e13]:
+          - generic [ref=e14]: Title
+          - textbox "Title A title is required." [active] [ref=e15]:
+            - /placeholder: A short title for this entry
+          - generic [ref=e16]: A title is required.
+        - generic [ref=e17]:
+          - generic [ref=e18]: Body
+          - textbox "Body" [ref=e19]:
+            - /placeholder: Write as much or as little as you like…
+        - generic [ref=e20]:
+          - button "Create" [disabled] [ref=e21]
+          - button "Cancel" [ref=e22] [cursor=pointer]
