@@ -105,6 +105,11 @@ button.danger {
   letter-spacing: 0.04em;
 }
 
+.detail-date {
+  display: block;
+  margin-top: 8px;
+}
+
 .tile-title {
   font-size: 17px;
   white-space: nowrap;
