@@ -1,0 +1,24 @@
+- generic [ref=f3e3]:
+  - banner [ref=f3e4]:
+    - link "Journal" [ref=f3e5] [cursor=pointer]:
+      - /url: /
+  - main [ref=f3e6]:
+    - generic [ref=f3e7]:
+      - heading "Edit entry" [level=1] [ref=f3e8]
+      - generic [ref=f3e9]:
+        - generic [ref=f3e10]:
+          - generic [ref=f3e11]: Date
+          - textbox "Date" [ref=f3e12]: 2026-11-10
+        - generic [ref=f3e13]:
+          - generic [ref=f3e14]: Title
+          - textbox "Title" [active] [ref=f3e15]:
+            - /placeholder: A short title for this entry
+            - text: Today is a great day
+        - generic [ref=f3e16]:
+          - generic [ref=f3e17]: Body
+          - textbox "Body" [ref=f3e18]:
+            - /placeholder: Write as much or as little as you like…
+            - text: I went for a walk
+        - generic [ref=f3e19]:
+          - button "Save" [ref=f3e20] [cursor=pointer]
+          - button "Cancel" [ref=f3e21] [cursor=pointer]
